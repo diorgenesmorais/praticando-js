@@ -30,3 +30,17 @@ resultado:
 
   4 passing (5ms)
 ```
+
+### 2º Exercício
+A partir do seguinte vetor e utilizando os métodos de array (map, reduce, filter e find):
+
+```
+const usuarios = [
+ { nome: 'Diego', idade: 23, empresa: 'Rocketseat' },
+ { nome: 'Gabriel', idade: 15, empresa: 'Rocketseat' },
+ { nome: 'Lucas', idade: 30, empresa: 'Facebook' },
+];
+```
+
+- map: Crie uma variável que contenha todas idades dos usuários: [23, 15, 30]
+
