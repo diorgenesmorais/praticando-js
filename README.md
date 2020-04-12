@@ -44,3 +44,6 @@ const usuarios = [
 
 - map: Crie uma variável que contenha todas idades dos usuários: [23, 15, 30]
 
+- filter: Crie uma variáveis que tenha apenas os usuários que trabalham na Rocketseat e com mais de 18
+anos: [{ nome: 'Diego', idade: 23, empresa: 'Rocketseat' }]
+
