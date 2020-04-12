@@ -23,5 +23,15 @@ describe('Second exercise', () => {
     it('Should contain only users who work at Rocketseat and are over 18 years old', () => {
         const [ users ] = usuarios.filter(u => u.empresa === 'Rocketseat' && u.idade > 18);
         expect(users).to.include({ nome: 'Diego', idade: 23, empresa: 'Rocketseat' });
-    })
+    });
+
+    it('Should find out enterprise Google', () => {
+        const enterprise = usuarios.find(u => u.empresa === 'Google');
+        expect(enterprise).to.be.an('undefined');
+    });
+
+    it('Should find out enterprise Rocketseat', () => {
+        const { empresa } = usuarios.find(u => u.empresa === 'Rocketseat');
+        expect(empresa).to.equal('Rocketseat');
+    });
 });

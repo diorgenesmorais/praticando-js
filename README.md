@@ -47,3 +47,5 @@ const usuarios = [
 - filter: Crie uma variáveis que tenha apenas os usuários que trabalham na Rocketseat e com mais de 18
 anos: [{ nome: 'Diego', idade: 23, empresa: 'Rocketseat' }]
 
+- find: Crie uma variável que procura por um usuário que trabalhe na empresa Google: undefined
+
