@@ -76,4 +76,15 @@ function mostraInfo(usuario) {
 mostraInfo({ nome: 'Diego', idade: 23 })
 ```
 
+### 5ª Exercício
+Utilizando o operador de rest/spread (...) realize as seguintes operações:
+
+- 5.1 Rest - A partir do array: const arr = [1, 2, 3, 4, 5, 6], defina uma variável x que recebe a primeira
+posição do vetor e outra variável y que recebe todo restante dos dados.
+
+```js
+console.log(x); // 1
+console.log(y); // [2, 3, 4, 5, 6]
+```
+
 
