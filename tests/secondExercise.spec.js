@@ -27,7 +27,7 @@ describe('Second exercise', () => {
 
     it('Should find out enterprise Google', () => {
         const enterprise = usuarios.find(u => u.empresa === 'Google');
-        expect(enterprise).to.be.an('undefined');
+        expect(enterprise).to.be.undefined;
     });
 
     it('Should find out enterprise Rocketseat', () => {
