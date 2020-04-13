@@ -33,5 +33,10 @@ describe('Fifth exercise', () => {
             const expected = {nome: 'Gabriel', idade: 23, endereco: {cidade: 'Rio do Sul', uf: 'SC', pais: 'Brasil'}};
             expect(usuario2).to.deep.include(expected);
         });
+        it('Should the city Lontras', () => {
+            const usuario3 = {...usuario, endereco: {...usuario.endereco, cidade: 'Lontras'}};
+            const expected = {nome: 'Diego', idade: 23, endereco: {cidade: 'Lontras', uf: 'SC', pais: 'Brasil'}};
+            expect(usuario3).to.deep.include(expected);
+        });
     });
 });

@@ -103,4 +103,6 @@ const usuario = {
 
 - Crie uma variável usuario2 que contenha todos os dados do usuário porém com nome Gabriel.
 
+- Crie uma variável usuario3 que contenha todos os dados do usuário porém com cidade Lontras.
+
 
