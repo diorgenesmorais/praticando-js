@@ -16,4 +16,13 @@ describe('Fourth exercise', () => {
             expect(estado).to.equals('SC');
         });
     });
+
+    context('4.2 Desestruturação em parâmetros', () => {
+        it('Should break down the function parameters', () => {
+            function mostrarInfo({ nome, idade }) {
+                return `${nome} tem ${idade} anos`;
+            }
+            expect(mostrarInfo({nome: 'Diego', idade: 23})).to.equals('Diego tem 23 anos');
+        })
+    })
 });

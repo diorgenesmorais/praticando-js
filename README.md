@@ -67,3 +67,13 @@ const empresa = {
 
 - Utilize a desestruturação para transformar as propriedades nome, cidade e estado em variáveis.
 
+- 4.2 Desetruturação em parâmetros
+
+```js
+function mostraInfo(usuario) {
+    return `${usuario.nome} tem ${usuario.idade} anos.`;
+}
+mostraInfo({ nome: 'Diego', idade: 23 })
+```
+
+
