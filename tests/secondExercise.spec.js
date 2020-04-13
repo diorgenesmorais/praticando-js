@@ -34,4 +34,14 @@ describe('Second exercise', () => {
         const { empresa } = usuarios.find(u => u.empresa === 'Rocketseat');
         expect(empresa).to.equal('Rocketseat');
     });
+
+    it('Should multiply the age by two and filter showing all those under the age of 50', () => {
+        const underFifty = usuarios
+                                .map(u => {
+                                    u.idade *= 2
+                                    return u})
+                                .filter(u => u.idade < 50);
+        const [ diego ] = underFifty;
+        expect(diego).to.include({ nome: 'Diego', idade: 46, empresa: 'Rocketseat' });
+    });
 });

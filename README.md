@@ -49,3 +49,6 @@ anos: [{ nome: 'Diego', idade: 23, empresa: 'Rocketseat' }]
 
 - find: Crie uma variável que procura por um usuário que trabalhe na empresa Google: undefined
 
+- unindo operações: Multiplique a idade de todos usuários por dois e depois realize um filtro nos usuários que possuem
+no máximo 50 anos:
+
