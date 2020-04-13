@@ -52,3 +52,18 @@ anos: [{ nome: 'Diego', idade: 23, empresa: 'Rocketseat' }]
 - unindo operações: Multiplique a idade de todos usuários por dois e depois realize um filtro nos usuários que possuem
 no máximo 50 anos:
 
+### 4º Exercício
+A partir do seguinte objeto:
+
+```js
+const empresa = {
+    nome: 'Rocketseat',
+    endereco: {
+        cidade: 'Rio do Sul',
+        estado: 'SC',
+    }
+};
+```
+
+- Utilize a desestruturação para transformar as propriedades nome, cidade e estado em variáveis.
+
