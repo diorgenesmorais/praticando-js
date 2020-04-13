@@ -17,4 +17,21 @@ describe('Fifth exercise', () => {
             expect(somar(1,2)).to.equals(3);
         });
     });
+
+    context('5.2 exercise - Spread', () => {
+        const usuario = {
+            nome: 'Diego',
+            idade: 23,
+            endereco: {
+                cidade: 'Rio do Sul',
+                uf: 'SC',
+                pais: 'Brasil',
+            }
+        };
+        it('Should contain the name Gabriel', () => {
+            const usuario2 = {...usuario, nome: 'Gabriel'};
+            const expected = {nome: 'Gabriel', idade: 23, endereco: {cidade: 'Rio do Sul', uf: 'SC', pais: 'Brasil'}};
+            expect(usuario2).to.deep.include(expected);
+        });
+    });
 });

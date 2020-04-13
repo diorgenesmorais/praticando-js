@@ -87,4 +87,20 @@ console.log(x); // 1
 console.log(y); // [2, 3, 4, 5, 6]
 ```
 
+- 5.2 Spread - A partir do objeto e utilizando o operador spread:
+
+```js
+const usuario = {
+    nome: 'Diego',
+    idade: 23,
+    endereco: {
+	cidade: 'Rio do Sul',
+	uf: 'SC',
+	pais: 'Brasil',
+    }
+};
+```
+
+- Crie uma variável usuario2 que contenha todos os dados do usuário porém com nome Gabriel.
+
 
