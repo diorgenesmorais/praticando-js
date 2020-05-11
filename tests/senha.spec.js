@@ -6,6 +6,7 @@ describe('Desafio verificador de senha', () => {
     it('Should more than 3 characters but than 20', () => {
         expect(pass.validator('DuckMoreVeryCharacters12')).to.false;
         expect(pass.validator('12a')).to.false;
+        expect(pass.validator('Feq12345')).to.true
     });
     it('Should by alphanumeric', () => {
         expect(pass.validator('l.Dwieir!')).to.false;
