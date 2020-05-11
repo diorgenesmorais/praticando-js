@@ -9,5 +9,10 @@ describe('Desafio verificador de senha', () => {
     });
     it('Should by alphanumeric', () => {
         expect(pass.validator('l.Dwieir!')).to.false;
+    });
+    it('Should contain characters and number', () => {
+        expect(pass.validator('a254ws')).to.true;
+        expect(pass.validator('1457EWgdt78YUT')).to.true;
+        expect(pass.validator('Asdgf48!')).to.false;
     })
 });
