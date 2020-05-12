@@ -105,4 +105,12 @@ const usuario = {
 
 - Crie uma variável usuario3 que contenha todos os dados do usuário porém com cidade Lontras.
 
+### 6º Desafio - baseado no vídeo [Boa programação](https://youtu.be/j8hUkBvqzB8) feito em python
 
+> Criar uma função que verifique se uma senha passada cumpre os seguintes requisitos:
+
+- Deve ter um comprimento maior que 3 e menor que 20
+- Deve ser alfanumerica
+- Deve conter letras e números
+
+**Done** with javascript
